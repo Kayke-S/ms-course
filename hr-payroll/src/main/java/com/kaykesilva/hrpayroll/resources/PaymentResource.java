@@ -12,7 +12,7 @@ import com.kaykesilva.hrpayroll.services.PaymentService;
 
 
 @RestController
-@RequestMapping(value = "/payment")
+@RequestMapping(value = "/payments")
 public class PaymentResource {
 
   @Autowired
