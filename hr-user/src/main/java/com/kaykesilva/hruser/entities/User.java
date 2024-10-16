@@ -35,7 +35,6 @@ public class User implements Serializable {
 	joinColumns = @JoinColumn(name = "user_id"), 
 	inverseJoinColumns = @JoinColumn(name="role_id"))
 	
-	@JoinColumn(name="tb_user_role")
 	private Set<Role> roles = new HashSet<>();
 	
 	/*inverseJoinColumns relates the foreign key of another entity */
